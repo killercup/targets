@@ -2,6 +2,7 @@
 members = [
     "brotli",
     "bson",
+    "cbor",
     "chrono",
     "crypto-hashes",
     "cssparser",

@@ -1,0 +1,12 @@
+[package]
+name = "cbor-targets"
+version = "0.0.0"
+publish = false
+
+[dependencies]
+cbor = { git = "https://github.com/BurntSushi/rust-cbor" }
+libfuzzer-sys = { git = "https://github.com/rust-fuzz/libfuzzer-sys.git" }
+
+[[bin]]
+name = "read_cbor"
+path = "read_cbor.rs"
